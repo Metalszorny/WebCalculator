@@ -11,6 +11,10 @@ The Html implementation of the web calculator. This represents the minimum requi
 - JavaScript
 
 
+## Features
+- single page application
+
+
 ## Enviroment
 - IDE: Notepadd++
 - Test: Google Chrome
