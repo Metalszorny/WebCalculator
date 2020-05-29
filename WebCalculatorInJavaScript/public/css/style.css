@@ -1,0 +1,265 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    margin: 0;
+}
+
+div.Header {
+    height: 70px;
+    background-color: #a5d181;
+}
+
+img.LogoImage {
+    padding-top: 25px;
+    display: block;
+    margin: auto;
+}
+
+div.TooltipBottomTriangle {
+    display: none;
+}
+
+span.TooltipTextBubble {
+    display: none;
+}
+
+div.TooltipTopTriangle {
+    display: none;
+}
+
+div.Header:hover div.TooltipBottomTriangle {
+    display: block;
+    height: 0;
+    width: 0;
+    left: 49%;
+    top: 48px;
+    position: absolute;
+    border-left: 12px solid transparent;
+	border-right: 12px solid transparent;
+	border-bottom: 20px solid #6d6e6b;
+}
+
+div.Header:hover span.TooltipTextBubble {
+    font-weight: bold;
+    font-size: 11px;
+    display: block;
+    height: 20px;
+    width: 130px;
+    border: solid;
+    border-width: 1px;
+    border-color: #6d6e6b;
+    border-radius: 8px;
+    background-color: white;
+    position: absolute;
+    text-align: center;
+    padding-top: 8px;
+    left: 46%;
+    top: 60px;
+}
+
+div.Header:hover div.TooltipTopTriangle {
+    display: block;
+    height: 0;
+    width: 0;
+    left: 49%;
+    top: 50px;
+    position: absolute;
+    border-left: 12px solid transparent;
+	border-right: 12px solid transparent;
+	border-bottom: 20px solid white;
+}
+
+hr.SeperatorLine {
+    border: 0;
+    margin: 0;
+    background: #6d6e6b;
+    height: 2px;
+}
+
+div.Content {
+    height: 488px;
+    background-image: url("../images/BG_tile_textil.png");
+    color: black;
+}
+
+div.ContentMain {
+    height: 100%;
+    background-image: url("../images/BG_gradlight.png");
+    background-position: center;
+    background-repeat: repeat-y;
+}
+
+div.ContentSpace {
+    height: 30px;
+}
+
+div.ContentPanel {
+    height: 428px;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    border: solid;
+    border-width: 1px;
+    border-color: #6d6e6b;
+    border-radius: 8px;
+    background-color: #ededed;
+}
+
+div.ContentArea {
+    padding: 20px;
+}
+
+label.Label {
+    float: left;
+    padding-top: 5px;
+}
+
+input.TextBox {
+    float: right;
+    height: 22px;
+    width: 110px;
+    border-width: 1px;
+    border-color: #b3b3b3;
+    background-color: #ffffff;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+}
+
+input.Button {
+    background-image: linear-gradient(#a1d181, #7a9762);
+    color: #ffffff;
+    border-width: 1px;
+    border-color: #808080;
+}
+
+input.Button:hover {
+    background-image: linear-gradient(#5f7f46, #5f7f46);
+    color: #ffffff;
+    border-width: 1px;
+    border-color: #808080;
+}
+
+input.Button:active {
+    background-image: linear-gradient(#7a9762, #a1d181);
+    color: #ffffff;
+    border-width: 1px;
+    border-color: #808080;
+}
+
+input.Button:disabled {
+    background-image: linear-gradient(#a4a4a4, #505050);
+    color: #ffffff;
+    border-width: 1px;
+    border-color: #808080;
+}
+
+label.TitleLabel {
+    height: 28px;
+    font-size: 13px;
+    text-align: center;
+    font-weight: bold;
+    display: block;
+}
+
+hr.UnderLine {
+    border: 0;
+    height: 2px;
+    margin: 0;
+    background: #a5d181;
+}
+
+form.ContentForm {
+    padding-top: 24px;
+}
+
+div.FirstOperandContainer {
+    height: 24px;
+    margin-bottom: 5px;
+}
+
+label.FirstOperandLabel {
+    margin-right: 40px;
+    font-weight: normal;
+}
+
+img.FirstOperandErrorImage {
+
+}
+
+input.FirstOperandTextBox {
+    
+}
+
+div.SecondOperandContainer {
+    height: 24px;
+    margin-bottom: 24px;
+}
+
+label.SecondOperandLabel {
+    margin-right: 17px;
+    font-weight: normal;
+}
+
+img.SecondOperandErrorImage {
+
+}
+
+input.SecondOperandTextBox {
+    
+}
+
+input.CalculateButton {
+    height: 20px;
+    width: 100px;
+    margin-bottom: 24px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div.ResultContainer {
+    height: 24px;
+    margin-bottom: 169px;
+}
+
+label.ResultLabel {
+    font-weight: normal;
+}
+
+input.ResultTextBox {
+    
+}
+
+input.ResetButton {
+    height: 20px;
+    width: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div.Footer {
+    height: 28px;
+    background-color: #6d6e6b;
+    color: white;
+}
+
+div.Credits {
+    padding-top: 8px;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div.CreditsName {
+    float: left;
+    font-weight: bold;
+}
+
+div.CreditsYear {
+    float: right;
+    font-weight: bold;
+}

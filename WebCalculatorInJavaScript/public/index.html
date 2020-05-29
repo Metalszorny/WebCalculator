@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+    <head>
+		<!-- Title -->
+        <title>Data input</title>
+		<!-- /Title -->
+		
+		<meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+		
+		<!-- Styles -->
+        <link href="./css/style.css" rel="stylesheet" type="text/css" />
+		<!-- /Styles -->
+    </head>
+    <body>
+		<!-- Header -->
+        <div class="Header">
+			<!-- Logo -->
+            <img src="./images/Logo.png" class="LogoImage" />
+			<!-- /Logo -->
+			
+			<!-- Tooltip -->
+            <div class="TooltipBottomTriangle"></div>
+            <span class="TooltipTextBubble">Just A Test</span>
+            <div class="TooltipTopTriangle"></div>
+			<!-- /Tooltip -->
+        </div>
+		<!-- /Header -->
+		
+        <hr class="SeperatorLine" />
+		
+		<!-- Content -->
+        <div class="Content">
+            <div class="ContentMain">
+                <div class="ContentSpace"></div>
+                <div class="ContentPanel">
+                    <div class="ContentArea">
+                        <label class="TitleLabel">Summarize</label>
+                        <hr class="UnderLine" />
+                        <form class="ContentForm">
+							<!-- First operand -->
+                            <div class="FirstOperandContainer">
+                                <label class="FirstOperandLabel Label">First value</label>
+                                <img src="./images/Error.png" class="FirstOperandErrorImage" id="FirstOperandErrorImage" hidden />
+                                <input type="text" value="" class="FirstOperandTextBox TextBox" name="firstOperand" id="FirstOperandTextBox" onkeyup="firstOperandTextBoxOnChange()" />
+                            </div>
+							<!-- /First operand -->
+							
+							<!-- Second operand -->
+                            <div class="SecondOperandContainer">
+                                <label class="SecondOperandLabel Label">Second value</label>
+                                <img src="./images/Error.png" class="SecondOperandErrorImage" id="SecondOperandErrorImage" hidden />
+                                <input type="text" value="" class="SecondOperandTextBox TextBox" name="secondOperand" id="SecondOperandTextBox" onkeyup="secondOperandTextBoxOnChange()" />
+                            </div>
+							<!-- /Second operand -->
+							
+                            <input type="button" value="Calculate" class="CalculateButton Button" id="CalculateButton" onclick="calculateButtonOnClick()" disabled />
+							
+							<!-- Result -->
+                            <div class="ResultContainer">
+                                <label class="ResultLabel Label">Result</label>
+                                <input type="text" value="" class="ResultTextBox TextBox" name="resultOperand" id="ResultTextBox" />
+                            </div>
+							<!-- /Result -->
+							
+                            <input type="button" value="Clear" class="ResetButton Button" id="ResetButton" onclick="resetButtonOnClick()" disabled />
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+		<!-- /Content -->
+		
+		<!-- Footer -->
+        <div class="Footer">
+            <div class="Credits">
+                <div class="CreditsName">Carl Coder</div>
+                <div class="CreditsYear">
+					<script>document.write(new Date().getFullYear())</script>
+				</div>
+            </div>
+        </div>
+		<!-- /Footer -->
+		
+		<!-- Scripts -->
+        <script src="./js/script.js"></script>
+		<!-- /Scripts -->
+    </body>
+</html>

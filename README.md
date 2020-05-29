@@ -9,6 +9,7 @@ If both operands are number the calculate button will be enabled and uppon click
 
 
 ## Used Languages
+- ASP .Net MVC Core
 - Html
 - Java
 - Java with Spring
@@ -17,4 +18,3 @@ If both operands are number the calculate button will be enabled and uppon click
 - Python with Django
 - Python with Flask
 - Ruby on Rails
-- ASP .Net MVC Core
